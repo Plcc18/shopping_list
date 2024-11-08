@@ -28,24 +28,21 @@
         </a>
         <h1>Compras da semana</h1>
       </div>
-      <div class="input-group">
-        <input type="text" placeholder="Adicione um novo item">
-        <button type="submit">Adicionar item</button>
-      </div>
-      <div>
-        <div class="list">
-          <input type="checkbox" id="styled-checkbox">
-          <label for="styled-checkbox" class="checkbox-label">
-            <span></span>Pão de forma
-          </label>
-          <ion-icon name="trash-outline"></ion-icon>
+      <form>
+        <div class="input-group">
+          <input type="text" id="input" placeholder="Adicione um novo item" />
+          <button type="submit">Adicionar item</button>
         </div>
-      </div>
-      <footer>
+        <div>
+          <ul id="list">
+          </ul>
+        </div>
+      </form>
+      <footer hidden>
         <div class="alert">
           <div>
             <ion-icon name="alert-circle"></ion-icon>
-              <span></span>O item foi removido da lista
+            <span></span>O item foi removido da lista
           </div>
           <ion-icon name="close-outline" id="delete"></ion-icon>
         </div>
@@ -59,5 +56,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
