@@ -24,13 +24,18 @@
       <div class="ancora">
         <a href="#">
           <ion-icon name="arrow-back-outline"></ion-icon>
-          Voltar
+          <p>Voltar</p>
         </a>
         <h1>Compras da semana</h1>
       </div>
       <form>
         <div class="input-group">
-          <input type="text" id="input" placeholder="Adicione um novo item" required/>
+          <input
+            type="text"
+            id="input"
+            placeholder="Adicione um novo item"
+            autocomplete="off"
+          />
           <button type="submit">Adicionar item</button>
         </div>
         <div>
@@ -41,7 +46,7 @@
         <div class="alert">
           <div>
             <ion-icon name="alert-circle"></ion-icon>
-            <span></span>O item foi removido da lista
+            <span id="alertMessage"></span>
           </div>
           <ion-icon name="close-outline" id="delete"></ion-icon>
         </div>

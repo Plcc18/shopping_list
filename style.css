@@ -59,6 +59,7 @@ a {
   gap: 3px;
   margin-top: 62px;
   margin-left: 0;
+  width: 4rem;
 }
 
 a:hover {
@@ -119,6 +120,7 @@ a:hover {
 
 ul {
   margin-top: 40px;
+  margin-bottom: 36px;
 }
 
 li {
@@ -161,7 +163,6 @@ li input[type="checkbox"] {
   padding: 12px 12px;
   width: 100%;
   max-width: 627px;
-  margin-top: 40px;
   border-radius: 8px;
   gap: 4px;
   justify-content: space-between;
