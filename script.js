@@ -8,6 +8,7 @@ form.onsubmit = (event) => {
   addItem(newItem)
 }
 
+
 const addItem = (newItem) => {
   const newLi = document.createElement("li")
 
