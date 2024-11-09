@@ -11,7 +11,7 @@ Este projeto é uma lista de compras interativa e dinâmica, construída com HTM
 
 ## Desenvolvimento do Projeto
 
-- Projeto ainda está completo.
+- Projeto está completo.
 
 ## Funcionalidades 🛒
 - **Adicionar Itens:** Insira novos itens na lista de compras.
